@@ -12,3 +12,32 @@ ul {
 	background: transparent;
 	text-decoration: none;
 }
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem 3rem;
+}
+
+.title {
+	font-size: 3rem;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.title::after {
+	content: "";
+	position: absolute;
+	width: 40%;
+	height: .4rem;
+	background: #6b8e23;
+	border-radius: .5rem;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-bottom: -.5rem;
+}
+
+

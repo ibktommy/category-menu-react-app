@@ -4,7 +4,9 @@ function App() {
   return (
     <>
       <div className="container">
-        <h1>Menu App</h1>
+        <div className="content">
+          <h1 className='title'>Menu Category</h1>
+        </div>
       </div>
     </>
   );
