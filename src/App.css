@@ -67,4 +67,24 @@ ul {
 	border: .1rem solid #6b8e23;
 }
 
+/* MENU */
+.menu-item {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.item-img {
+	width: 30rem;
+	height: 20rem;
+	border: .2rem solid #6b8e23;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
 

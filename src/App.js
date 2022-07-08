@@ -1,5 +1,6 @@
 import Category from './Category';
 import './App.css';
+import Menu from './Menu';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <div className="content">
           <h1 className='title'>Menu Category</h1>
           <Category />
+          <Menu />
         </div>
       </div>
     </>
