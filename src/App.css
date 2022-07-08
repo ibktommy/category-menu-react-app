@@ -1,0 +1,14 @@
+.container {
+	max-width: 1280px;
+	margin: 0 auto;
+	height: 100%;
+}
+
+a,
+button,
+input,
+ul {
+	border: 0;
+	background: transparent;
+	text-decoration: none;
+}
