@@ -1,6 +1,8 @@
-import Category from './Category';
 import './App.css';
+import Category from './Category';
 import Menu from './Menu';
+import data from "./data";
+
 
 function App() {
   return (
@@ -9,7 +11,13 @@ function App() {
         <div className="content">
           <h1 className='title'>Menu Category</h1>
           <Category />
-          <Menu />
+          <div className="menu-content">
+            {
+              data.map(({ id, ...props }) => (
+                <Menu key={id} {...props} />
+              ))
+            }
+          </div>
         </div>
       </div>
     </>
