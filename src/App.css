@@ -40,4 +40,30 @@ ul {
 	margin-bottom: -.5rem;
 }
 
+/* CATEGORY */
+.category {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	margin: 3rem 0 5rem 0;
+}
+
+.category-btn {
+	background: #6b8e23;
+	padding: .5rem 1rem;
+	color: #fff;
+	font-size: 1.4rem;
+	letter-spacing: .2rem;
+	border-radius: .3rem;
+	cursor: pointer;
+}
+
+.category-btn:hover {
+	background: transparent;
+	color: #6b8e23;
+	transition: all .5s ease;
+	border: .1rem solid #6b8e23;
+}
+
 
