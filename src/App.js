@@ -6,7 +6,6 @@ import { useState } from 'react';
 
 // Getting all categories from our data
 const allCategories = ["all", ...new Set(data.map((dataItem) => dataItem.category))]
-console.log(allCategories)
 
 
 function App() {
